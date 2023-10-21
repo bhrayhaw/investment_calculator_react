@@ -1,0 +1,13 @@
+/* Style the header */
+.main__header {
+    text-align: center;
+}
+
+.main__header img {
+    max-width: 100px;
+}
+
+.main__header h3 {
+    margin-top: 10px;
+    color: #fff;
+}

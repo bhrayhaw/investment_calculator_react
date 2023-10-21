@@ -1,0 +1,17 @@
+.main__table {
+    margin: 20px 0; /* Add space between the form and table */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #fff;
+    color: #153b21;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}

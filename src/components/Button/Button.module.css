@@ -1,0 +1,23 @@
+/* Style the buttons */
+.form-controls__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.form-controls__btn button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+button[type="submit"] {
+    background-color: #153b21;
+    color: #fff;
+}
