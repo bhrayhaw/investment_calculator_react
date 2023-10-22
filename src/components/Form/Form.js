@@ -42,7 +42,7 @@ const Form = (props) => {
     let totalInterest = 0
     const newData = [];
 
-    for (let i = 0; i <= parseInt(enteredInvestmentDuration); i++) {
+    for (let i = 0; i < parseInt(enteredInvestmentDuration); i++) {
         const yearlyInterest =
             (totalSavings + parseFloat(enteredYearlySavings)) *
             (parseFloat(enteredExpectedInterest) / 100);
